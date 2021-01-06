@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+html,
+body {
+    height: 100%;
+}
+
+s body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+    overflow: hidden;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+p {
+    margin: 0;
+}
+
+
+/*Header starts*/
+
+header figure {
+    float: left;
+    margin-bottom: 8px;
+}
+
+header nav {
+    float: right;
+    margin-top: 35px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    margin-right: 45px;
+}
+
+
+/*Service Section starts*/
+
+#service {
+    margin: 80px 0;
+    background: #F8F9FC;
+    padding: 80px;
+}
+
+#service figure {
+    float: left;
+    width: 354px;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 20px;
+}
+
+#service figure:nth-child(3) {
+    margin: 0 20px;
+}
+
+#service h4 {
+    font-size: 17px;
+    margin: 14px 0;
+}
+
+#service h3 {
+    font-size: 25px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+}
+
+#service h3 span {
+    color: red;
+}
+
+#service p {
+    font-size: 13px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+
+#service figure {
+    margin: 0px 5px 20px -3px;
+}
+
+
+/*Author Section goes here*/
+
+.personal-info {
+    float: left;
+    width: 50%;
+    padding-top: 200px;
+}
+
+#author img {
+    width: 400px;
+    height: auto;
+    float: right;
+}
+
+#author {
+    margin-bottom: 150px;
+}
+
+.personal-info h1,
+.about-info h1 {
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.personal-info h1 span {
+    display: block;
+    color: #FF8367;
+}
+
+.personal-info p,
+.about-info p {
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+button a {
+    font-size: 20px;
+    padding: 10px 25px;
+    display: block;
+    background: #FF8367;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+button {
+    border: none;
+    margin-top: 20px;
+}
+
+
+/*about css*/
+
+.about-info {
+    float: right;
+    width: 50%;
+    padding-top: 210px;
+}
+
+#about img {
+    width: 400px;
+    height: auto;
+    float: left;
+}
+
+#about {
+    margin-bottom: 150px;
+}
+
+.about-info h1 {
+    color: #4D41CB;
+}
+
+#query {
+    padding: 120px 0px;
+}
+
+.quiry_info {
+    width: 540px;
+    margin: 0 auto;
+}
+
+.quiry_info button {
+    float: right;
+    margin: 0;
+}
+
+.quiry_info h1 {
+    float: left;
+    width: 120px;
+}
+
+#connect {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.social_icon li {
+    display: inline-block;
+    text-decoration: none;
+}
